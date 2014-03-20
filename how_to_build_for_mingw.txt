@@ -7,9 +7,9 @@ Extract to Dependencies\freetype
 
 Go into the Build folder and run:
 
-	cmake -G "MinGW Makefiles" -D CMAKE_MAKE_PROGRAM="C:\MinGW\bin\make.exe" -D FREETYPE_INCLUDE_DIRS="..\Dependencies\freetype\include;..\Dependencies\freetype\include\freetype2" -D FREETYPE_LIBRARY="..\Dependencies\freetype\lib\libfreetype.dll.a" .
+	cmake -G "MinGW Makefiles" -D CMAKE_MAKE_PROGRAM="E:\MinGW\bin\make.exe" -D FREETYPE_INCLUDE_DIRS="..\Dependencies\freetype\include;..\Dependencies\freetype\include\freetype2" -D FREETYPE_LIBRARY="..\Dependencies\freetype\lib\libfreetype.dll.a" .
 
-N.B. ** REPLACE C:\MinGW\bin\make.exe with the path to your MinGW make.exe file. **
+N.B. ** REPLACE E:\MinGW\bin\make.exe with the path to your MinGW make.exe file. **
 
 
 Once cmake completes successfully, run make
